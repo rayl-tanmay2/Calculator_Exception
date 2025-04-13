@@ -46,3 +46,29 @@ public class MainCalculator {
                     case 5:
                         Square.performSquare(sc);
                         break;
+                     case 6:
+                        Cube.performCube(sc);
+                        break;
+                    case 7:
+                        SquareRoot.performSquareRoot(sc);
+                        break;
+                    case 8:
+                        System.out.println("Exiting the Calculator. Goodbye!");
+                        break;
+                    default:
+                        System.out.println("Invalid choice! Please select from 1 to 8.");
+                }
+
+            } catch (InputMismatchException e) {
+                // Handles non-integer inputs
+                System.out.println("Invalid input! Please enter numeric values.");
+                sc.next(); // Clear invalid input
+                choice = 0; // Reset choice to continue loop
+            }
+
+        } while (choice != 8); // Repeat until user chooses to exit
+
+        sc.close(); // Closing the scanner
+    }
+}
+
