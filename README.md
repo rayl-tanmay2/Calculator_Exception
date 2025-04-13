@@ -10,9 +10,9 @@ A **console-based calculator** built in **Java** featuring basic arithmetic and 
 
 | Field       | Details            |
 |-------------|--------------------|
-| **Name**    | _Your Name_        |
-| **PRN**     | _Your PRN_         |
-| **Batch**   | _Your Batch_       |
+| **Name**    | _Tanmay Joshi_        |
+| **PRN**     | _23070126134_         |
+| **Batch**   | _AIML-B3_       |
 
 ---
 
